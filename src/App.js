@@ -1,8 +1,8 @@
+import { useState } from 'react';
+
 import './App.css';
 import Question from './Question';
 import { questions } from './questions';
-import { useState } from 'react';
-
 
 function App () {
   const [currentQuestionId, setCurrentQuestionId] = useState(1);
