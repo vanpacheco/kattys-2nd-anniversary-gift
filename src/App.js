@@ -14,8 +14,9 @@ function App () {
   return (
     <div className="App">
       {questions.filter(ele => ele.id === currentQuestionId).map(ele =>
-        <Question 
+        <Question
           answer={ele.answer} 
+          key={ele.id}
           onGoToNextQuestion={handleGoToNextQuestion} 
           text={ele.question} 
         />
