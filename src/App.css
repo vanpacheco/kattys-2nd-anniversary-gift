@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  background: #007FFF;
+  background: #007fff;
+}
+
+.App.pink {
+  background: #eeb0c0;
 }
 
 .App-logo {
@@ -54,10 +58,16 @@
   border-bottom-color: #4B9CEF;
 }
 
-.question > button {
+.question > button,
+.messageContainer button  {
   background-color: #000;
 }
 
-.question > button:hover {
+.question > button:hover,
+.messageContainer button:hover  {
   background-color: #000;
+}
+
+.messageContainer {
+  height: 100vh;
 }
