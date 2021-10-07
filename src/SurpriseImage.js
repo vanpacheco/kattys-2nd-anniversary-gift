@@ -1,11 +1,11 @@
-import Slide from '@mui/material/Slide';
+import Zoom from '@mui/material/Zoom';
 
 import image from './familia.jpeg';
 
 const SurpriseImage = () => {
-    return <Slide direction="up" in appear timeout={500}>
-        <img alt="Familia" src={image} width="100%" />
-    </Slide>
+    return <Zoom in timeout={4000}>
+        <img alt="Familia" src={image} width="71%" />
+    </Zoom>
 }
 
 export default SurpriseImage;
